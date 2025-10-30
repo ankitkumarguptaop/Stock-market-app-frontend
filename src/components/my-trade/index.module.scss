@@ -1,0 +1,62 @@
+.tradeContainer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 8px !important;
+  height: 716px;
+  width: 332px;
+  background: #14151b;
+  gap: 16px;
+}
+
+.buttonContainer {
+  border-radius: 12px;
+  background: #202127;
+  height: 48px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.selectedBuy {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  border-radius: 12px !important;
+  width: 50%;
+  color: #00c278 !important;
+  background-color: #00c27814 !important;
+}
+
+.notSelectedBuy {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  border-radius: 12px !important;
+
+  width: 50%;
+  color: #75798a !important;
+  &:hover {
+    color: #00c278 !important;
+  }
+}
+
+.selectedSell {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  border-radius: 12px !important;
+
+  width: 50%;
+  color: #fd4b4e !important;
+  background-color: #ea383b1f !important;
+}
+
+.notSelectedSell {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  border-radius: 12px !important;
+
+  width: 50%;
+  color: #75798a !important;
+  &:hover {
+    color: #fd4b4e !important;
+  }
+}

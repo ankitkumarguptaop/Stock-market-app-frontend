@@ -1,0 +1,47 @@
+.stockBookContainer {
+  height: calc(100% - 64px - 34px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.currentPrice {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 4px 12px;
+  height: 32px;
+}
+.toggleButtonContainer {
+  display: flex;
+  gap: 8px;
+  height: 32px !important;
+  align-items: center;
+  padding: 16px;
+}
+
+.selectedButton {
+  color: white !important;
+  font-size: 14px !important;
+  background-color: #202127 !important;
+}
+
+.notSelected {
+  color: white !important;
+  font-size: 14px !important;
+}
+
+.heading {
+  display: flex;
+  padding: 8px 12px;
+
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-size: 12px !important;
+  }
+}

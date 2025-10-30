@@ -1,0 +1,23 @@
+.limitOptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+   p{
+    font-size: 12px !important;
+  }
+}
+
+.midBboText{
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  p{
+    font-size: 12px !important;
+    color :#4c94FF !important;
+  }
+}

@@ -1,0 +1,21 @@
+.stockTradeContainer {
+  height: calc(100% - 64px - 34px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.heading {
+  width: 170px;
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-size: 12px !important;
+  }
+}
