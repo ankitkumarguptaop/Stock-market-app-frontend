@@ -8,6 +8,17 @@
   display: flex;
   justify-content: space-between;
    p{
+    color: #969FAF !important;
+    font-size: 12px !important;
+  }
+}
+
+.quantity ,.orderValue{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+   p{
+    color: #969FAF !important;
     font-size: 12px !important;
   }
 }
@@ -20,4 +31,42 @@
     font-size: 12px !important;
     color :#4c94FF !important;
   }
+}
+
+
+
+.priceInput {
+  height: 48px !important;
+  background-color: #202127;
+  
+  border : none !important
+}
+
+.priceInput .MuiInputBase-root {
+  height: 48px !important;
+}
+
+.priceInput .MuiInputBase-input {
+  color: "white" !important;
+  height: 48px !important;
+  padding: 0 14px;
+}
+
+.rangeText{
+  display: flex;
+  align-items: center;
+  height: 16px;
+  justify-content: space-between;
+  p{
+    font-size: 12px !important;
+     color: #969FAF !important;
+  }
+}
+
+.placeOrder{
+  margin-top: 12px !important;
+  height: 48px !important;
+  color: #14151B !important;
+  background-color: #00c278 !important;
+  border-radius: 12px !important;
 }

@@ -16,7 +16,6 @@ export default function StockBookDetails() {
     }
   }, []);
 
-  // Generate dummy data dynamically
   const sellData = Array.from({ length: 40 }, (_, i) => ({
     id: i,
     type: "sell" as const,
